@@ -1,0 +1,12 @@
+MODULES_MANAGER_V2
+bdtb|/home/xue/workspace/myspider/bdtb.py
+csdnspider|/home/xue/workspace/myspider/csdnspider.py
+knowedge|/home/xue/workspace/myspider/knowedge.py
+myspider04|/home/xue/workspace/myspider/myspider04.py
+spider01|/home/xue/workspace/myspider/spider01.py
+spider02|/home/xue/workspace/myspider/spider02.py
+spider05|/home/xue/workspace/myspider/spider05.py
+test|/home/xue/workspace/myspider/test.py
+test_mysqldb|/home/xue/workspace/myspider/test_mysqldb.py
+tool|/home/xue/workspace/myspider/tool.py
+txst|/home/xue/workspace/myspider/txst.py

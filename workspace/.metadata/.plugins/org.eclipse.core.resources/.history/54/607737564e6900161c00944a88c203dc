@@ -1,0 +1,36 @@
+# -*- coding:utf-8 -*-
+import sys
+import time
+import re
+import mysqldb as mdb
+
+f_hander = open('log.out', 'w')
+sys.stdout = f_hander
+
+
+
+
+base_url = 'http://iask.sina.com.cn/'
+def getcurrenttime():
+    return time.strftime('[%Y-%m-%d %H:%M:%S]', time.localtime(time.time()))
+
+config = {
+          'host': '127.0.0.1',
+          'port': 3306,
+          'user': 'root',
+          'passwd': 'xccxcc1234567',
+          'db': 'spider',
+          'charset': utf8
+          
+    }
+
+conn = mdb.connect(**config)
+cursor = conn.cursor()
+
+
+
+
+
+
+
+

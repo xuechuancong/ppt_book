@@ -1,0 +1,6 @@
+def pp():
+    f = open('/home/xue/Desktop/myspider/000001.html', 'w')
+    print f
+    
+pp
+    

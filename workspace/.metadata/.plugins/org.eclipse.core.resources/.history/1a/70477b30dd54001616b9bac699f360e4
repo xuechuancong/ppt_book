@@ -1,0 +1,12 @@
+import urllib2
+import urllib
+
+#get opinion
+url = "http://ask.csdn.net/"
+user_agent = "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/52.0.2743.82 Safari/537.36"
+headers = {"User-Agent": user_agent}
+value = {"username": "13667103263", "password": "xccxcc1234567"}
+data = urllib.urlencode(value)
+request = urllib2.Request(url, data, headers)
+response = urllib2.urlopen(request)
+print response.read()

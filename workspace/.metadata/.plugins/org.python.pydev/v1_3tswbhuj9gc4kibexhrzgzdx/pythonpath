@@ -1,0 +1,12 @@
+/usr/lib/python2.7
+/usr/lib/python2.7/plat-x86_64-linux-gnu
+/usr/lib/python2.7/lib-tk
+/usr/lib/python2.7/lib-dynload
+/home/xue/.local/lib/python2.7/site-packages
+/usr/local/lib/python2.7/dist-packages
+/usr/lib/python2.7/dist-packages
+/usr/local/lib/python2.7/dist-packages/pyspider-0.3.8-py2.7.egg
+/usr/local/lib/python2.7/dist-packages/pyquery-1.2.13-py2.7.egg
+/usr/lib/python2.7/dist-packages/PILcompat
+/usr/local/lib/python2.7/dist-packages/greenlet-0.4.10-py2.7-linux-x86_64.egg
+/usr/local/lib/python2.7/dist-packages/gevent-1.1.2-py2.7-linux-x86_64.egg

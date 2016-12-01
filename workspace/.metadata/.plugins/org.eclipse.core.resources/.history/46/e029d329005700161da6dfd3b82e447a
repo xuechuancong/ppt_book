@@ -1,0 +1,7 @@
+import urllib2
+
+request = urllib2.Request("https://www.qiushibaike.com/8hr/page/2/?s=4899845")
+#print request
+
+response = urllib2.urlopen(request)
+print response.read()

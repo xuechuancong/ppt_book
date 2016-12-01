@@ -1,0 +1,10 @@
+import urllib2
+#import urllib
+
+url = 'http://blog.csdn.net/cqcre1'
+try:
+    req = urllib2.urlopen(url)
+except urllib2.HTTPError, e:
+    print e.code
+    print e.reason
+    

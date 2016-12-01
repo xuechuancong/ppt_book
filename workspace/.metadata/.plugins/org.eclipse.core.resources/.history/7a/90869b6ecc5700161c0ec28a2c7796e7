@@ -1,0 +1,7 @@
+def pp():
+    f = open('/home/xue/Desktop/myspider/000001.html', 'r')
+    f.write('xuechuancong')
+    f.close()
+    
+pp
+    

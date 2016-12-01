@@ -1,0 +1,10 @@
+import urllib2
+import urllib
+
+#get opinion
+url = "http://ask.csdn.net/"
+value = {"username": "13667103263", "password": "xccxcc1234567"}
+data = urllib.urlencode(value)
+request = urllib2.Request(url, data)
+response = urllib2.urlopen(request)
+print response.read()

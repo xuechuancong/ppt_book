@@ -1,0 +1,90 @@
+-- VERSION_4
+-- START DISKCACHE_2
+/home/xue/workspace/.metadata/.plugins/org.eclipse.core.resources/.projects/myspider/com.python.pydev.analysis/v2_indexcache
+txst|1471967144950399000|/home/xue/workspace/myspider/txst.py
+spider05|1471766535785151000|/home/xue/workspace/myspider/spider05.py
+test|1470045197107047000|/home/xue/workspace/myspider/test.py
+test_mysqldb|1471969985601787000|/home/xue/workspace/myspider/test_mysqldb.py
+spider01|1471967144986403000|/home/xue/workspace/myspider/spider01.py
+knowedge|1471969585639796000|/home/xue/workspace/myspider/knowedge.py
+myspider04|1470043736804114000|/home/xue/workspace/myspider/myspider04.py
+spider02|1470043727323580000|/home/xue/workspace/myspider/spider02.py
+bdtb|1471766172154837000|/home/xue/workspace/myspider/bdtb.py
+tool|1471934538452773000|/home/xue/workspace/myspider/tool.py
+csdnspider|1469725807542705000|/home/xue/workspace/myspider/csdnspider.py
+-- END DISKCACHE
+-- START DICTIONARY
+18
+10=test
+17=Tool.__init__
+4=test_mysqldb
+15=BDTB.__init__
+5=myspider04
+14=Handler
+16=Handler.__init__
+7=tool
+12=BDTB
+8=txst
+3=spider05
+18=BDTB.getpage
+9=spider01
+2=knowedge
+11=spider02
+1=bdtb
+6=csdnspider
+13=Tool
+-- END DICTIONARY
+-- START TREE 1
+32
+bas|2|baseURL!11@base_url!19@
+bdt|2|BDTB!9@bdtb!11@
+con|4|content!27@config!19@conn!19@conn!35@
+coo|1|cookie!43@
+cou|1|count!35@
+cur|2|cursor!35@cursor!19@
+dat|1|data!51@
+db_|1|DB_NAME!35@
+des|1|desc!35@
+dom|1|domain_page!58@
+f|1|f!27@
+f_h|2|f_hander!19@f_hander!67@
+fil|1|File!27@
+get|1|getcurrenttime!18@
+han|2|handler!43@Handler!73@
+hav|1|HavImg!27@
+hea|2|headers!51@headers!27@
+ite|1|items!27@
+num|1|num!27@
+ope|1|opener!43@
+pag|1|pagestor!27@
+pat|1|pattern!27@
+pp|1|pp!82@
+req|3|request!27@request!51@req!91@
+res|4|response!43@response!51@response!27@results!35@
+sav|1|save_img!58@
+tab|1|TABLE_NAME!35@
+too|2|Tool!73@Tool!57@
+url|3|url!91@url!51@url!27@
+use|2|user_agent!27@user_agent!51@
+val|2|values!35@value!51@
+x|1|x!27@
+-- END TREE
+-- START TREE 2
+16
+__i|4|__init__!12&10@__init__!13&58@__init__!14&74@__init__!13&74@
+bas|2|baseURL!15&11@baseurl!16&75@
+cra|1|crawl_config!14&75@
+det|1|detail_page!14&74@
+dom|1|domain_page!14&74@
+end|1|endpage!16&75@
+get|5|getTitle!12&10@getExtension!13&58@getcontent!12&10@getExtension!13&74@getpage!12&10@
+ind|1|index_page!14&74@
+mak|2|makeDir!13&58@makeDir!13&74@
+on_|1|on_start!14&74@
+pat|2|path!17&59@path!17&75@
+pn|1|pn!18&11@
+sav|5|saveBrief!13&58@saveImg!13&74@saveBrief!13&74@saveImg!13&58@save_img!14&74@
+see|1|seeLZ!15&11@
+sta|1|startpage!16&75@
+too|1|tool!16&75@
+-- END TREE

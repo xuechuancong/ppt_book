@@ -1,0 +1,26 @@
+-- VERSION_4
+-- START DISKCACHE_2
+/home/xue/workspace/.metadata/.plugins/org.eclipse.core.resources/.projects/text/com.python.pydev.analysis/v2_indexcache
+test03|1469690520313541000|/home/xue/workspace/text/test03.py
+test02|1469689062731772000|/home/xue/workspace/text/test02.py
+text01|1469688280718530000|/home/xue/workspace/text/text01.py
+-- END DISKCACHE
+-- START DICTIONARY
+3
+3=test03
+1=test02
+2=text01
+-- END DICTIONARY
+-- START TREE 1
+7
+ini|2|init!10@init!18@
+loo|2|lookup!18@lookup!10@
+me|1|me!19@
+myn|2|myname!11@myname!19@
+par|1|params!27@
+pow|1|power!26@
+sto|5|stor!19@store!18@store!10@story!26@stor!11@
+-- END TREE
+-- START TREE 2
+0
+-- END TREE

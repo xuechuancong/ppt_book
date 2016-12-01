@@ -1,0 +1,4 @@
+import urllib2
+
+response = urllib2.urlopen("file:///home/xue/Desktop/myspider/000006.html")
+print response.read()

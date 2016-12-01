@@ -1,0 +1,8 @@
+def pp():
+    f = open('/home/xue/Desktop/myspider/xue.txt', 'w')
+    f.write('xuechuancong')
+    f.close()
+    return ok
+    
+print pp()
+    
