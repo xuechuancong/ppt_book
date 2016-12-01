@@ -1,0 +1,12 @@
+package unite7;
+
+import static mindview.Print.*;
+
+import static mindview.Range.*;
+
+public class TestRange {
+	public static void main(String[] args) {
+		print(range(5));
+	}
+
+}

@@ -1,0 +1,6 @@
+23:59:04 **** Incremental Build of configuration Default for project myfirstC ****
+make all 
+make: *** No rule to make target 'all'.  Stop.
+
+23:59:04 Build Finished (took 62ms)
+

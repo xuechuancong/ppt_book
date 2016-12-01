@@ -1,0 +1,14 @@
+/*
+ * test.c
+ *
+ *  Created on: Nov 24, 2016
+ *      Author: xue
+ */
+
+#include <stdio.h>
+
+int main(){
+	printf("hello,eclipse!");
+	return -1;
+}
+

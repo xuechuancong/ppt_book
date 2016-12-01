@@ -1,0 +1,25 @@
+package study;
+
+
+public class Getprime {
+	public static void main(String[] args) {
+		int[] a = new int[1000];
+		for (int i = 2; i < a.length+2; i++) {
+			a[i-2] = i;
+			
+		}
+		
+		for(int num:a){
+			//System.out.print(" "+num);
+			outer: for (int j = 3; j < a.length; j++) {
+				for (int k = 2; k < j; k++) {
+					if (j%k==0) {
+						continue outer;
+					}
+					
+				}
+				System.out.println(" "+j);
+			}
+		}
+	}
+}

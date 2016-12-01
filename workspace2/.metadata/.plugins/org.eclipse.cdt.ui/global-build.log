@@ -1,0 +1,21 @@
+23:53:34 **** Build of configuration Default for project myfirstC ****
+make all 
+make: *** No rule to make target 'all'.  Stop.
+23:53:49 **** Incremental Build of configuration Default for project myfirstC ****
+make all 
+make: *** No rule to make target 'all'.  Stop.
+23:54:39 **** Incremental Build of configuration Default for project myfirstC ****
+make all 
+make: *** No rule to make target 'all'.  Stop.
+23:55:18 **** Incremental Build of configuration Default for project myfirstC ****
+make all 
+make: *** No rule to make target 'all'.  Stop.
+23:55:52 **** Incremental Build of configuration Default for project myfirstC ****
+make all 
+make: *** No rule to make target 'all'.  Stop.
+23:56:21 **** Incremental Build of configuration Default for project myfirstC ****
+make all 
+make: *** No rule to make target 'all'.  Stop.
+23:59:04 **** Incremental Build of configuration Default for project myfirstC ****
+make all 
+make: *** No rule to make target 'all'.  Stop.

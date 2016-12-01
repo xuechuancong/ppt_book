@@ -1,0 +1,50 @@
+package unite7;
+
+import static mindview.Print.*;
+
+class Cleanser {
+	private String s = "Cleanser";
+	public void append(String a) { s += a;}
+	public void dilute() { append(" dilute()");}
+	public void apply() { append(" apply()");}
+	public void scrub() { append(" scrub()");}
+	public String toString() { return s; }
+	public static void main(String[] args) {
+		Cleanser x = new Cleanser();
+		x.dilute(); x.apply(); x.scrub();
+		print(x);
+	}
+}
+public class Detergent extends Cleanser{
+	//改变Cleanser方法
+	@Override
+	public void scrub() {
+		append(" Detergent.scrub()");
+		super.scrub();
+	}
+	//添加方法
+	public void foam() { append(" foam()");}
+	//测试新类
+	public static void main(String[] args) {
+		Detergent x = new Detergent();
+		x.dilute(); x.apply(); x.scrub(); x.foam();
+		print(x);
+		print("Testing base class: ");
+		Cleanser.main(args);
+	}
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
